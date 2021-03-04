@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <h3> Selecting either graph will show a distribution of scores on 200 point intervals for a selected section of the 2010 SAT taken by students in NYC.</h3>
+	<script src="frontEnd.js">
+	</script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  <script onload"getData();"></script>
+
+  <h2> Graph </h2>
+  <p> Select an SAT section first.<p>
+	<div id="visualization"></div>
+  <div id="idk"></div>
+
+  <h2> SAT Section </h2>
+  <button onClick="writing();":">Writing</button>
+  <button onClick="mathematics();">Mathematics</button>
+  <button onClick="criticalReading();">Critical Reading</button>
+
+
+	<h2> Visualization Type </h2>
+	<button onClick="pieGraph();">Pie Graph</button>
+  <br><button onClick="barGraph();">Bar Graph</button>
+  <br>
+  <br><button onClick="requestGrades();">Display Graph</button>
+
+
+  
+
+  <h2> Description </h2>
+    <div    id="section"></div>
+    <div    id="whichfilter"></div>
+    <div    id="else"></div>
+</body>
+</html>
